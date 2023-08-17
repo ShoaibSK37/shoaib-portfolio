@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+        
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        
+
+    }
+    body{
+    background-color: blueviolet;   
+    color: white; 
+    }
+    nav{
+        background-color: rgb(73, 3, 138);
+        height: 15vh;
+        top: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    nav ul{
+        margin: 0 23px;
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        padding: 20px;
+        font-size: 4vb;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav ul li a:hover{
+        text-decoration: none;
+        font-size: 1.4em;
+        color: rgb(114, 88, 145);
+    }
+    .left{
+        font-size: 1.5rem;
+        
+    }
+    section{
+        display: flex;
+        justify-content: space-around;
+        margin: 23px 0px;
+    }
+
+    .leftsection{
+        height: 60vh;
+        width: 60vw;
+        padding-top: 80px;
+        font-size: 3vb;
+    }
+    
+    .rightsection{
+        margin: 30px;
+        height: 60vh;
+        width: 30vw;
+    }
+    .rightsection img {
+        background-color: rgb(73, 3, 138);
+        height: 60vh;
+        width: 30vw;
+    }
+        
+            
+    hr{
+        border: 1px solid white;
+        box-shadow: #320c66;
+        width: 85vw;
+        margin-left: 7vw;
+        margin-bottom: 5px;
+        margin-top: 20px;
+        box-shadow: #aaa8a8;
+    }
+
+     
+    .edu{
+        display: flex; 
+        margin: 20px;
+        padding: 25px; 
+        font-size: 2vb;
+        justify-content: space-evenly;
+    }
+    
+
+    .eduh1{
+        margin-left: 40vw;
+        margin-top: 30px;
+    }
+
+    .projects-container{
+        display: flex; 
+        margin: 20px;
+        padding: 25px; 
+        font-size: 4vb;
+        justify-content: space-evenly;
+    }
+
+
+    .p{
+        color: rgb(52, 7, 94);
+    }
+        
+    .content{
+        max-width: 40vw;
+        max-height: 50vh;
+    }
+    .content h2 {
+        color: #fff;
+        font-size: 5vb;
+        
+    }
+
+    .content h2:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 3px #320c66;
+    }
+
+    .edu span{
+        color: #320c66;
+        font-size: 5vb;
+        -webkit-text-stroke: 1px #320c66;
+        
+    }
+
+    .area {
+    text-align: center;
+    font-size: 4vb;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    animation: blur .75s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+    }
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+.XYZ{
+    color: #320c66;
+    font-size: 5vb;
+    -webkit-text-stroke: 2px #320c66;
+}
+.ABC{
+    margin: 25px;
+    padding: 25px;
+    font-size: 2vb; 
+    margin-left: 35%;
+}
+.projects-container img{
+        height: 40vh;
+        width: 20vw;
+        margin: 60px;
+        justify-content: space-around;
+        color: #000000;
+        
+}
+.proh1{
+        padding-left: 37vw;
+        font-size: 3vb ;
+        color: #320c66;
+        background-color: #fff;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+
+@keyframes changewidth {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 100%;
+        }
+    }
+#dynamicContent {
+        white-space: nowrap;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                
+                <div class="area"><h1> </h1> >> Shoiab Shaikh << </div>
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+
+      <section class="firstsection">
+            <div class="leftsection">
+                <section>
+                    <div class="content" >
+                        <h2>
+                            Hi, i am <span class="p">Shoaib Shaikh</span> 
+                            i am a Passionate full stack developer
+                            <span id="element"></span>
+
+                        </h2>
+                    </div>
+                </section>
+            </div>
+           
+            <div class="rightsection"> 
+                <img src="sb4.png" alt="">    
+            </div>
+
+      </section>
+
+      
+<hr><br>
+      <h1 class="proh1" style="font-size: 5vb;  ">EDUCATION</h1>
+<hr>
+      <div class="edu">
+
+        <div class="school">
+            <h1><span>School</span></h1>
+            <h1> Anjuman Khairul Islam </h1>
+            <h1>Urdu medium</h1>
+            <h1> 2016-17</h1>
+            <h1> 70.20%</h1>
+         </div>
+           
+         
+         <div class="diploma">
+            <h1><span>Diploma</span> </h1>
+             <h1> M H Saboo Siddik Polytechnic</h1>
+             <h1>ECE</h1>
+             <h1>  2017-20</h1>
+             <h1>  84.50%</h1>
+          </div>
+
+
+           
+          <div class="engineering">
+            <h1><span>Engineering</span></h1>
+             <h1> Vidyalankar Institute of Technology</h1>
+             <h1></h1>
+             <h1>  2020-23</h1>
+             <h1>  74%</h1>
+          </div>
+
+       </div>
+
+       <div class="ABC">
+        <h1><span class="XYZ" >CERTIFICATION COURSE</span></h1><br>
+        <h1>Q-SPIDER </h1>
+        <h1> Softwer developement" </h1>
+        <h1>2022-2023</h1>
+        <h1>Vashi, Mumbai Maharashtra</h1>
+
+       </div>
+          <br><br><br> 
+         
+          
+
+        <hr>
+        <h1 class="proh1" style="font-size: 5vb; margin-top: 20px;" ><span style="margin: 50px;"></span>SKILL'S</h1>
+        <hr >
+    
+        <div class="edu">
+    
+            <div class="school" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>HTML</span></h1>
+            </div>
+                
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>CSS</span> </h1>
+            </div>
+      
+            <div class="engineering" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>JAVASCRIPT</span></h1>
+            </div>
+
+        </div>
+
+
+        <div class="edu">
+    
+            <div class="school" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>PHP</span></h1>
+            </div>
+            
+            
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>CORE JAVA</span> </h1>
+            </div>
+
+            <div class="engineering" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>SQL</span></h1>
+            </div>
+
+        </div>
+          
+
+
+
+        <div class="edu">
+
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>OBJECT ORIENTED PROGRAMMING</span> </h1>
+            </div>
+    
+            <div class="engineering" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>COLLECTION FRAMEWORK</span></h1>
+            </div>
+
+            <div class="school" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>DSA</span></h1>
+            </div>
+           
+        </div>
+
+
+
+
+        <div class="edu">
+    
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>C++</span> </h1>
+            </div>
+
+            <div class="engineering" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>C PROGRAMMING</span></h1>
+            </div>
+
+            <div class="school" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>COMPUTER NETWORK</span></h1>
+            </div>
+           
+        </div>
+
+
+       
+
+         <div class="edu" >
+            
+            <div class="school" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>RDBMS</span></h1>
+            </div>
+            
+            
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>AWS</span> </h1>
+            </div>  
+
+            
+            <div class="diploma" style="background-color: #ecf2fa; padding: 4px;border-radius: 30px;">
+                <h1><span>UI & UX</span> </h1>
+            </div>  
+
+            
+
+        
+ 
+        </div>
+            
+
+
+        <br><br>
+            
+            
+<hr><br>
+    <div class="proh1"><h1>PROJECTS</h1></div>
+<hr>
+  <div class="projects-container" >
+
+        <div style="color: #000000;">
+            <a href="#" target="_blank"  class="project-tile">
+
+                <img src="shoes11.webp" alt="Anime inspired shoes">
+    
+                <p  style="color: #000000;"><b>Anime inspired shoes</b></p>
+            </a>
+                
+        </div>
+
+        <div style="color: #000000;">
+            <a href="#" target="_blank"  class="project-tile">
+
+                <img src="shoes11.webp" alt="Anime inspired shoes">
+            
+                <p  style="color: #000000;"><b>Food recipe website</b></p>
+              </a>
+        </div>
+      
+      
+      
+        <div style="color: #000000;">
+            <a href="#" target="_blank"  class="project-tile">
+
+                <img src="shoes11.webp" alt="Anime inspired shoes">
+            
+                <p  style="color: #000000;"><b>Man's fashion inspired shoes</b></p>
+              </a>
+        </div>
+      
+  </div>
+<br>
+  
+  <div class="projects-container">
+  
+        <div style="color: #000000;"> 
+            <a href="#" target="_blank"  class="project-tile">
+
+                <img src="shoes11.webp" alt="Anime inspired shoes">
+            
+                <p  style="color: #000000;"><b>Anime watching  website</b></p>
+            </a>
+        </div>
+      
+      
+        <div style="color: #000000;">
+            <a href="#" target="_blank"  class="project-tile">
+    
+                <img src="shoes11.webp" alt="Anime inspired shoes">
+            
+                <p  style="color: #000000;"><b>Ecommerce  website</b></p>
+            </a>
+        </div>
+      
+      
+
+      <div>
+        <a href="#" target="_blank"  class="project-tile">
+
+            <img src="shoes11.webp" alt="Anime inspired shoes">
+        
+            <p style="color: #000000;"><b>Project's source  website</b></p>
+          </a>
+            
+      </div>
+      
+    </div>
+
+   <div  style="font-size: 4vh;background-color: #000000; box-sizing: border-box;">
+    <h1 style="float: left;">Contact</h1>
+   <br><br>
+<section id="contact" style="background-color: #000000;font-size: 5vh;box-sizing: border-box;" class="bg-blue">
+  
+        <section class="bg-dark vh-50  d-flex" style="box-sizing: border-box;">
+            <div class="container text-white d-flex flex-column justify-content-center vh-50 display-1 fw-semibold" style="box-sizing: border-box;">
+                <div>Contact me...</div>
+                <div id="dynamicContent" class="overflow-hidden">Linkdlin.</div>
+                <div class="text-warning">Done.</div>
+            </div>
+            <span style="margin: 10vw;"></span>
+            <div class="container text-white d-flex flex-column justify-content-center vh-50 display-1 fw-semibold float" style="box-sizing: border-box;">
+                <div>on...</div>
+                <div id="dynamicContent2" class="overflow-hidden">Skshoaib2k02@gmmail.com</div>
+                <div class="text-warning">&#128516; &#128515; &#128513;</div>
+            </div>
+        </section>
+
+</section>
+
+<footer>
+  Made by <i class="fas fa-heart"> </i> Shoaib shaikh
+</footer>
+
+</div>
+
+            
+                
+            
+             
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Database</i> developer.', '&amp; a Java developer', 'Electronic engineering'],
+          typeSpeed: 50,
+        });
+
+
+
+
+firstText = "Email.";
+secondText = "Github";
+thirdText = "Leetcode.";
+fourthText ="Linkdlin";
+
+
+
+firstText2 = "skshoaib2k02@gmail.com.";
+secondText2 = "skshoaib37";
+thirdText2 = "shoaibsk37";
+fourthText2 ="Shoaib shaikh";
+
+
+intervalTime = 600;
+window.load = displayText();
+
+
+function displayText() {
+    // display first text
+    document.querySelector('#dynamicContent').innerText = firstText;
+    document.querySelector('#dynamicContent2').innerText = firstText2;
+   
+    // display second text
+    setTimeout(() => {
+        document.querySelector('#dynamicContent').innerText = secondText;
+        document.querySelector('#dynamicContent2').innerText = secondText2;
+   
+    }, intervalTime * 3);
+    // display third text
+    setTimeout(() => {
+        document.querySelector('#dynamicContent').innerText = thirdText;
+        document.querySelector('#dynamicContent2').innerText = thirdText2;
+   
+    }, intervalTime * 5);
+    // display second text
+    setTimeout(() => {
+        document.querySelector('#dynamicContent').innerText = fourthText;
+       document.querySelector('#dynamicContent2').innerText = fourthText2;
+    
+    }, intervalTime * 3);
+}
+
+setInterval(() => {
+    displayText();
+}, intervalTime * 7);
+
+
+
+
+
+
+
+        // JavaScript to show/hide the pop-up
+    const triggerText = document.querySelector('.trigger-text');
+    const popup = document.getElementById('popup');
+
+    triggerText.addEventListener('click', () => {
+      popup.style.display = 'block';
+    });
+
+    window.addEventListener('click', (event) => {
+      if (event.target === popup) {
+        popup.style.display = 'none';
+      }
+    });
+    </script>
+</body>
+</html>
